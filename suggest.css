@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e0ffe0, #f0fff0); /* Pleasant green gradient background */
+    color: #333; /* Darker text for readability */
+}
+
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: calc(100vh - 100px); /* Adjust height to fill the page minus header */
+}
+
+.section {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    margin:50px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%; /* Adjust based on your design */
+}
+
+.carousel-item {
+    flex: none;
+    width: 100%; /* Ensure each item takes up full carousel width */
+    position: relative;
+    font-family: roboto;
+    font-size:18px ;
+    color: #110202;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Keeps the image aspect ratio intact */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    display: block;
+}
+
+/* Optional: Ensuring images have the same height */
+.carousel-item img {
+    height: 300px; /* Set a fixed height */
+    width: 100%;
+    object-fit: cover; /* Ensures the image fills the container */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e0ffe0, #f0fff0); /* Pleasant green gradient background */
+    color: #333; /* Darker text for readability */
+}
+
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: calc(100vh - 100px); /* Adjust height to fill the page minus header */
+}
+
+.section {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    margin:50px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+.carousel2 {
+    display: flex;
+    overflow: hidden;
+    width: 100%; /* Adjust based on your design */
+}
+
+.carousel2-item {
+    flex: none;
+    width: 100%; /* Ensure each item takes up full carousel width */
+    position: relative;
+}
+
+.carousel2-item img {
+    width: 100%;
+    height: auto; /* Keeps the image aspect ratio intact */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    display: block;
+}
+
+/* Optional: Ensuring images have the same height */
+.carousel2-item img {
+    height: 300px; /* Set a fixed height */
+    width: 100%;
+    object-fit: cover; /* Ensures the image fills the container */
+}
